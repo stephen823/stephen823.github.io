@@ -1,0 +1,709 @@
+/* Styling for HTML elements */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: lightgray;
+  }
+  
+nav{
+    background-color:white;
+    width: 100%;
+   
+}
+
+
+a.nav-link{
+    float: left;
+}
+
+.navbar-brand{
+    font-size: x-large;
+    background:darkcyan;
+    padding: 20px ;
+    margin: 0;
+}
+
+a:not([href]):not([tabindex]) {
+    color: white ;
+    text-decoration: none;
+}
+
+.container {
+    width: 100px;
+    margin: 4;
+    background: lightgray;
+  }
+
+
+.box{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background:white;
+}
+
+.box-1{
+    width: 700px;
+    height:575px;
+    top: 40px;
+    left: -550px;
+    align-content: center;
+}
+
+
+.box-2{
+    width: 450px;
+    height:470px;
+    top: 100px;
+    right: -570px;
+}
+
+/* Selecting elements by ID */
+
+#lat-image{
+    float:left
+}
+
+#figure {
+  position: relative;
+}
+
+#images,
+#lat-img {
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+}
+
+#img {
+  width: 30%;
+}
+
+#lat-image, 
+#images{
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+}
+
+
+#lat-Summary,
+#lat-vis{
+    color:darkcyan;
+    text-align: left;
+    margin-left: 1.5pc;
+}
+
+#image-1,
+#image-2,
+#image-3,
+#image-4{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 1000px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: visible;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+  
+  .box-1{
+    position: absolute;
+    width: 720px;
+    left: -320px;
+  }
+
+
+  .box-2{
+    position: absolute;
+    width: 720px;
+    height:300px;
+    top:1500px;
+    left: -362px;
+  }
+  
+  #image-1,
+  #image-2,
+  #image-3,
+  #image-4{
+  width: 162px;
+  height: 162px;
+   } 
+}
+
+
+
+
+/* For the Comparison page*/
+
+.box-3{
+    width: 700px;
+    height:700px;
+    top: 40px;
+    right: -300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reminder{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+figcaption{
+  float:auto;
+  margin-left: 70px;
+  color: darkcyan;
+  font-size: 20px;
+}
+
+#comp1{
+  position: absolute;
+  left: 15px;
+  top: -6px;
+}
+
+#comp2{
+  position: absolute;
+  right: 15px;
+  top: -6px;
+}
+
+#comp3{
+  position: absolute;
+  left: 15px;
+  top: 290px;
+}
+
+#comp4{
+  position: absolute;
+  right: 10px;
+  top: 290px;
+}
+
+#imgc1,
+#imgc2,
+#imgc3,
+#imgc4{
+  width: 260px;
+  height: 260px;
+}
+
+@media (max-width: 600px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: visible;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+  
+
+  .box-3{
+    position: absolute;
+    width: 720px;
+    height:2500px;
+    top:100px;
+    left: -310px;
+  }
+  
+  #imgc1,
+  #imgc2,
+  #imgc3,
+  #imgc4{
+  width: 500px;
+  height: 500px;
+    }
+    
+    
+  figcaption{
+    float:auto;
+    margin-left: 170px;
+    color: darkcyan;
+    font-size: 20px;
+  }
+
+
+  #comp1{
+      position: absolute;
+      left: 13%;
+      top: -6px;
+  }
+    
+  #comp2{
+      position: absolute;
+      left: 13%;
+      top: 600px;
+  }
+    
+  #comp3{
+      position: absolute;
+      left: 13%;
+      top: 1200px;
+  }
+    
+  #comp4{
+      position: absolute;
+      left: 13%;
+      top: 1800px;
+  }
+}
+
+
+/* For the Max Temperature page*/
+#sel-img, 
+#sel-image{
+  float: auto;
+}
+
+#mt_image_sel1{
+  border: blue;
+  border-style: ridge;
+}
+
+#sel-image{
+  margin-left: 200px;
+}
+
+#figure {
+  position: relative;
+}
+
+p{
+  margin: 10px;
+}
+
+
+#images,
+#sel-img {
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+}
+
+#img {
+  width: 30%;
+}
+
+#mt_image_sel1,
+#mt_image2,
+#mt_image3,
+#mt_image4{
+  width: 200px;
+  height: 200px;
+}
+
+
+#lat-Summary,
+#lat-vis{
+  color:darkcyan;
+  text-align: left;
+  margin-left: 1.5pc;
+}
+
+@media (max-width: 1000px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: visible;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+  
+
+  .box-2{
+    position: absolute;
+    width: 720px;
+    height:290px;
+    top:-650px;
+    left: -362px;
+  }
+  
+  #mt_image_sel1,
+  #mt_image2,
+  #mt_image3,
+  #mt_image4{
+  width: 162px;
+  height: 162px;
+   }
+
+
+}
+
+/* For the Max Humidity page*/
+#sel-img, 
+#sel-image{
+  float: auto;
+}
+
+#h_image_sel2{
+  border: blue;
+  border-style: ridge;
+}
+
+#sel-image{
+  margin-left: 200px;
+}
+
+#figure {
+  position: relative;
+}
+
+p{
+  margin: 10px;
+}
+
+
+#images,
+#sel-img {
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+}
+
+#img {
+  width: 30%;
+}
+
+#h_image1,
+  #h_image_sel2,
+  #h_image3,
+  #h_image4{
+  width: 200px;
+  height: 200px;
+  }
+
+
+#lat-Summary,
+#lat-vis{
+  color:darkcyan;
+  text-align: left;
+  margin-left: 1.5pc;
+}
+
+@media (max-width: 1000px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: visible;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+  
+
+  .box-2{
+    position: relative;
+    width: 720px;
+    height:300px;
+    top:650px;
+    left: -377px;
+  }
+
+
+  #h_image1,
+  #h_image_sel2,
+  #h_image3,
+  #h_image4{
+  width: 162px;
+  height: 162px;
+   }
+
+
+}
+
+
+/* For the Max Cloudiness page*/
+#sel-img, 
+#sel-image{
+  float: auto;
+}
+
+#cl_image_sel3{
+  border: blue;
+  border-style: ridge;
+}
+
+#sel-image{
+  margin-left: 200px;
+}
+
+#figure {
+  position: relative;
+}
+
+p{
+  margin: 10px;
+}
+
+
+#images,
+#sel-img {
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+}
+
+#img {
+  width: 30%;
+}
+
+
+#cl_image1,
+#cl_image2,
+#cl_image_sel3,
+#cl_image4{
+  width: 200px;
+  height: 200px;
+   }
+
+@media (max-width: 1000px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: visible;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+  
+
+  .box-2{
+    position: relative;
+    width: 720px;
+    height:300px;
+    top:650px;
+    left: -377px;
+  }
+
+
+  #cl_image1,
+  #cl_image2,
+  #cl_image_sel3,
+  #cl_image4{
+  width: 162px;
+  height: 162px;
+   }
+
+
+}
+
+/* For the Max Wind Speed page*/
+#sel-img, 
+#sel-image{
+  float: auto;
+}
+
+#ws_image_sel4{
+  border: blue;
+  border-style: ridge;
+}
+
+#sel-image{
+  margin-left: 200px;
+}
+
+#figure {
+  position: relative;
+}
+
+p{
+  margin: 10px;
+}
+
+
+#images,
+#sel-img {
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+}
+
+#img {
+  width: 30%;
+}
+
+#ws_image1,
+#ws_image2,
+#ws_image3,
+#ws_image_sel4{
+  width: 200px;
+  height: 200px;
+   }
+
+#lat-Summary,
+#lat-vis{
+  color:darkcyan;
+  text-align: left;
+  margin-left: 1.5pc;
+}
+
+@media (max-width: 1000px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: visible;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+  
+
+  .box-2{
+    position: relative;
+    width: 720px;
+    height:300px;
+    top:650px;
+    left: -377px;
+  }
+
+
+  #ws_image1,
+  #ws_image2,
+  #ws_image3,
+  #ws_image_sel4{
+  width: 162px;
+  height: 162px;
+   }
+
+
+}
+
+
+
+/*For the Data Page*/
+
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size:10pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size:10pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 col.col8 { width:42pt }
+      table.sheet0 col.col9 { width:42pt }
+      table.sheet0 tr { height:15pt }
+
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+#data{ margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; color: lightgray;}
+table{margin-top:20px; margin-left: auto; margin-right:auto; width: auto; height: auto;}
+tr {border-bottom: 1px solid lightgray}
+
+
+.box-4{
+  width: 850px;
+  height: fit-content;
+  top: 40px;
+  left:-370px;
+  margin-left: auto;
+  margin-right: auto;
+  background:white;
+}
+
+
+@media (max-width: 1000px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: visible;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+  
+
+  .box-4{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+}
