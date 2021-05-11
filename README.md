@@ -1,8 +1,8 @@
-# Web-Design-Challenge
+# Global Weather Pattern Analysis Presentation
 Website Link: https://stephen823.github.io/latitude.html
 
 ## Project Intro/Objective
-In this web-developing project, I aim to conclude global weather patterns concerning latitude based on statistical inferences and their interpretations through a comprehensive website. Additionally, I also seek to further support my conclusions and offer viewers opportunities to analyze patterns independently through the attachment of data visualizing graphs.
+In this project, I aim to conclude global weather patterns concerning latitude based on statistical inferences and their interpretations through a comprehensive website. Additionally, I also seek to further support my conclusions and offer viewers opportunities to analyze patterns independently through the attachment of data visualizing graphs.
 
 ### Methods Used
 * Inferential Statistics
